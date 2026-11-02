@@ -2,7 +2,7 @@
 
 A small fraud-injection harness for testing whether an LLM travel-planning agent can be steered toward a scam hotel by fake listings, coordinated fake reviews, or an escalating fake support agent.
 
-It accompanies the article *"When Our Travel Agents Got Scammed: Layered Trust Patterns for LLM Agents"* by Arjun Prabhulal. The design follows the three fraud scenarios in WandaPlan ([arXiv:2505.16557](https://arxiv.org/abs/2505.16557)). It is a scaled-down approximation built from the paper's description, **not** a replication, and its numbers are not comparable to the paper's.
+The design follows the three fraud scenarios in WandaPlan ([arXiv:2505.16557](https://arxiv.org/abs/2505.16557)). It is a scaled-down approximation built from the paper's description, **not** a replication, and its numbers are not comparable to the paper's.
 
 ## What it tests
 
@@ -42,7 +42,7 @@ These settings are part of the evaluated system and affect the results.
 | Variant B options | Four authentic listings plus one synthetic listing, shuffled |
 | Price rule (P2) | Flag a price more than 35% below the median of that city's search results |
 
-**How the patterns are simplified here.** The article describes P1–P4 as design patterns. This harness implements reduced versions:
+**How the patterns are simplified here.** P1–P4 are design patterns; this harness implements reduced versions:
 
 - **P1** accepts only listing IDs from the simulated platform response. The synthetic fakes are deliberately included in that response, so P1 models a contaminated trusted source, not independent provenance checks.
 - **P2** is a single-source price-outlier rule. It does no cross-source corroboration.

@@ -1,0 +1,10 @@
+calls 380 date 2026-10-31
+C0: initial pick = scam 3/16 | S2b k1 scam 13/13 | S2b k4 scam 13/13 | S3b r1 model 1 final 1 | S3b r2 model 4 final 4 | S3b r3 model 4 final 4 | S3b r4 model 4 final 4
+C1: initial pick = scam 3/16 | S2b k1 scam 5/13 | S2b k4 scam 7/13 | S3b r1 model 1 final 1 | S3b r2 model 1 final 1 | S3b r3 model 0 final 0 | S3b r4 model 0 final 0
+   guard flagged scam listing: 6 / 16
+C2: initial pick = scam 5/16 | S2b k1 scam 7/11 | S2b k4 scam 9/11 | S3b r1 model 1 final 0 | S3b r2 model 2 final 0 | S3b r3 model 2 final 0 | S3b r4 model 2 final 0
+   P2 removed scam: 2 / 16  P2 removed real: 0 / 64
+S1 guard flags: fake 17 / 64  real 15 / 64
+C0 DSR S3b (end of round 4): 9 / 16  DSR S2b k4: 0 / 16
+C1 DSR S3b (end of round 4): 13 / 16  DSR S2b k4: 6 / 16
+C2 DSR S3b (end of round 4): 11 / 16  DSR S2b k4: 2 / 16

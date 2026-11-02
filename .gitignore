@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Secrets
+.env
+
+# Listing snapshots are fetched locally and not redistributed
+data/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
